@@ -7,6 +7,7 @@
 <title>Uberflutungsflachen-nach-Risiko-in-NRW-Deutschland-Map-3D</title>
 
 <style>
+
 body{
     font-family: Arial, sans-serif;
     margin:0;
@@ -33,28 +34,80 @@ h1{
 
 .map-container{
     margin:30px auto;
-    max-width:1180px;
+    width:1180px;
     box-shadow:0 4px 12px rgba(0,0,0,0.2);
 }
 
 iframe{
-    width:100%;
+    width:1180px;
     height:720px;
     border:none;
 }
+
+/* Image gallery */
+
+.image-section{
+    margin:40px auto;
+    width:1180px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.image-section img{
+    width:560px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+footer{
+    margin-top:40px;
+    padding:15px;
+    background:#0b3d91;
+    color:white;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>Uberflutungsflachen-nach-Risiko-in-NRW-Deutschland-Map-3D</h1>
+<h1>Überflutungsflächen nach Risiko in NRW – Deutschland (3D Map)</h1>
 <div class="author">Author: Mohamed Ait Abdelmalik</div>
 </header>
 
 <div class="map-container">
-<iframe width="1180" height="720" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/1Lie1r5"></iframe>
+
+<iframe 
+width="1180" 
+height="720" 
+frameborder="0" 
+scrolling="no" 
+allowfullscreen 
+src="https://arcg.is/1Lie1r5">
+</iframe>
+
 </div>
+
+<!-- Image section -->
+
+<div class="image-section">
+
+<img src="Layout.jpg" alt="Flood Risk Layout NRW">
+
+<img src="La444out.jpg" alt="Flood Risk Map Visualization">
+
+<img src="Layoffffut.jpg" alt="Flood Risk Analysis">
+
+<img src="Layouwewet.jpg" alt="GIS Flood Mapping">
+
+</div>
+
+<footer>
+GIS Project – Flood Risk Mapping in North Rhine-Westphalia (Germany)
+</footer>
 
 </body>
 </html>
